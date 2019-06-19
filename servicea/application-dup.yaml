@@ -1,2 +1,4 @@
+from:
+  git-dup-1.0
 info :
   body : this is the dup value from config server!
