@@ -1,3 +1,5 @@
+from :
+  git-dup-1.0
 server:
   port: 7001
 spring:
