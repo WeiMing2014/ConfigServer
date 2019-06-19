@@ -1,0 +1,21 @@
+server:
+  port: 7001
+spring:
+  application:
+    name: service-a
+  zipkin:
+    base-url: http://localhost:9411
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:9001/eureka/
+    healthcheck:
+      enabled: true
+  instance:
+    hostname: localhost
+    home-page-url: http://${eureka.instance.hostname}:${server.port}/
+    status-page-url-path: http://${eureka.instance.hostname}:${server.port}/actuator/info
+    health-check-url-path: http://${eureka.instance.hostname}:${server.port}/actuator/health
+info:
+  head: service-a
+  body: this is a demo for service-a!
