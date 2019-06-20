@@ -1,4 +1,4 @@
 from:
   git-default-1.0
 info:
-  body: this is default value from config server!
+  body: This is demo for service-a which config info from git!
