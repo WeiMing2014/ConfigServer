@@ -1,4 +1,4 @@
 from:
   git-default-1.0
 info:
-  body: This is demo for service-a which config info from git!
+  body: This is demo for service-a which config info from git new!
